@@ -1,0 +1,11 @@
+Running docker-compose
+docker-compose up -d   
+
+init db scheme
+docker exec api_dev_api_1 alembic upgrade head
+
+drop compose
+docker-compose down 
+
+stop container and drop the table
+docker-compose down -v
