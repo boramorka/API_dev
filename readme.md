@@ -10,7 +10,7 @@
 
 <h1 align="center">
   <br>
- API development. Social network with authentication and votes. <br>
+ API development using FastAPI. Social network with authentication and votes. <br>
  :robot:
 </h1>
 
@@ -33,7 +33,100 @@
 </p>
 
 ## How to use
-Go to https://fastapi-boramorka.herokuapp.com/docs#/
+### Deployment
+This app deployed to heroku. So You can:
+- Test it as a heroku app: Go to https://fastapi-boramorka.herokuapp.com/docs
+
+
+- Build it locally using docker:
+  
+  ``` bash
+  # Pull these images to docker
+  $ docker pull boramorka/fastapi
+  $ docker pull postgres
+
+  # Clone this repository
+  $ git clone https://github.com/boramorka/API_dev.git
+
+  # Go to app dir
+  $ cd API_dev
+
+  # Run docker-compose to start an app
+  $ docker-compose up -d
+  """ 
+  Then go to localhost:8000/docs
+  """
+  # Type this to stop
+  $ docker-compose down
+  ```
+
+### Usage 
+API has authorize block in the upper-right corner, posts block, users block, auth block and likes (votes) block:
+
+![Blocks](https://github.com/boramorka/usercontent/blob/main/API_dev/show_start.png?raw=true)
+
+First, go to Create User section and fill the json form:
+
+![Blocks](https://github.com/boramorka/usercontent/blob/main/API_dev/create_user.png?raw=true)
+
+Then use an authorize button:
+
+![Blocks](https://github.com/boramorka/usercontent/blob/main/API_dev/auth1.png?raw=true)
+
+And fill the credentials:
+
+![Blocks](https://github.com/boramorka/usercontent/blob/main/API_dev/auth2.png?raw=true)
+
+
+![Blocks](https://github.com/boramorka/usercontent/blob/main/API_dev/get_posts.png?raw=true)
+
+
+![Blocks](https://github.com/boramorka/usercontent/blob/main/API_dev/get_posts_id.png?raw=true)
+
+
+![Blocks](https://github.com/boramorka/usercontent/blob/main/API_dev/create_post.png?raw=true)
+
+
+![Blocks](https://github.com/boramorka/usercontent/blob/main/API_dev/upd_post.png?raw=true)
+
+
+![Blocks](https://github.com/boramorka/usercontent/blob/main/API_dev/del_post.png?raw=true)
+
+
+![Blocks](https://github.com/boramorka/usercontent/blob/main/API_dev/like.png?raw=true)
+
+
+![Blocks]()
+
+
+![Blocks]()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## How To Run Locally
 
   ``` bash
