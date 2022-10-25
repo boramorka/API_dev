@@ -2,10 +2,9 @@ from fastapi import FastAPI, Depends
 from . import mdls
 from .dtbs import engine, get_db
 from sqlalchemy.orm import Session
+from fastapi.middleware.cors import CORSMiddleware
 from .routers import post, user, auth, vote
 from .config import sttngs
-from fastapi.middleware.cors import CORSMiddleware
-
 
 #mdls.Base.metadata.create_all(bind=engine)
 
