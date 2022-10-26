@@ -1,9 +1,9 @@
 <h1 align="center">
   <br>
- API development using FastAPI, SQLAlchemy and Postgres. <br>
- Social network with authentication and votes. <br>
- Deployment on Heroku + Docker. <br>
- :computer:
+ API development using <br>
+ :fire: FastAPI :fire: <br> :fire: SQLAlchemy :fire: <br> :fire: Postgres :fire: <br>
+  :computer: Social network with authentication and votes. :computer:<br>
+:hammer_and_wrench: Deployment on Heroku + Docker. :hammer_and_wrench: <br>
 </h1>
 
 
