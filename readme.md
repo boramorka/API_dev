@@ -455,7 +455,7 @@ def verify_access_token(token: str, credentials_exception):
           db.close()
   ```
 
-# SQLAlchemy Model
+## SQLAlchemy Model
   ```python
   """
   SQLAlchemy
@@ -621,9 +621,9 @@ def verify_access_token(token: str, credentials_exception):
 
 # Login to Heroku, and create a new app:
   $ heroku login
-  $git init
-  $heroku create fastapi-boramorka
-  $heroku git:remote -a fastapi-boramorka
+  $ git init
+  $ heroku create fastapi-boramorka
+  $ heroku git:remote -a fastapi-boramorka
 
   # Add Config Vars:
   # Here you need to set env variables inside heroku or using bash (cmd)
