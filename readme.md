@@ -641,7 +641,7 @@ def verify_access_token(token: str, credentials_exception):
   # Run worker
   $ heroku ps:scale web=1
 
-  #Run migrations
+  # Run migrations
   $ heroku run bash --app fastapi-boramorka alembic revision --autogenerate -m "Add all tables"
   ```
 
